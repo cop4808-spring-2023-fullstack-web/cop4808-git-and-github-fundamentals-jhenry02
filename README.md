@@ -10,4 +10,4 @@
 ## 4. Sine (sin)
 
 # Calculator GIF :
-<img src ="https://imgur.com/a/znmSEgv.gif">
+<img src ="https://imgur.com/700Wdn0.gif">
