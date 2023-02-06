@@ -213,7 +213,7 @@ function inputLog(num)
 {
     displayValue = (Math.log10(num)).toString();
 }
-//Functionality for Sin
+//Functionality for sine
 function inputSin(num)
 {
     displayValue = (Math.sin(num)).toString();
