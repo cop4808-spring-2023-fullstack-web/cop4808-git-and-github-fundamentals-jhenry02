@@ -41,9 +41,28 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('clear'))
+            } else if (buttons[i].classList.contains('clear')) {
                 clearDisplay();
                 updateDisplay();
+            }
+            else if(buttons[i].classList.contains('Ln')) {
+                inputLn(displayValue);
+                updateDisplay();
+            }
+            else if(buttons[i].classList.contains('Cos')) {
+                inputCos(displayValue);
+                updateDisplay();
+            }
+            else if (buttons[i].classList.contains('Log'))
+            {
+                inputLog(displayValue);
+                updateDisplay();
+            }
+            else if (buttons[i].classList.contains('Sin'))
+            {
+                inputSin(displayValue);
+                updateDisplay();
+            }
         }
     )}
 }
@@ -178,7 +197,25 @@ function operate(x, y, op) {
         }
     }
 }
+function inputSQRT(num)
+{
+    displayValue = (Math.sqrt(num)).toString();
+}
 
-function roundAccurately(num, places) {
-    return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
+function inputCos(num)
+{
+    displayValue = (Math.cos(num)).toString();
+}
+//Function for Natural Log  
+function inputLn(num)
+{
+    displayValue = (Math.log(num)).toString();
+}
+function inputLog(num)
+{
+    displayValue = (Math.log10(num)).toString();
+}
+function inputSin(num)
+{
+    displayValue = (Math.sin(num)).toString();
 }
