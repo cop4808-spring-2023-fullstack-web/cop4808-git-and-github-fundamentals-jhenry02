@@ -197,24 +197,23 @@ function operate(x, y, op) {
         }
     }
 }
-function inputSQRT(num)
-{
-    displayValue = (Math.sqrt(num)).toString();
-}
 
+// Functionality for cosine
 function inputCos(num)
 {
     displayValue = (Math.cos(num)).toString();
 }
-//Function for Natural Log  
+//Functionality for Natural Log  
 function inputLn(num)
 {
     displayValue = (Math.log(num)).toString();
 }
+//Functionality for Logaithmic
 function inputLog(num)
 {
     displayValue = (Math.log10(num)).toString();
 }
+//Functionality for Sin
 function inputSin(num)
 {
     displayValue = (Math.sin(num)).toString();
