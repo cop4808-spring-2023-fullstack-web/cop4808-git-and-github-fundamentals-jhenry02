@@ -51,6 +51,7 @@ button {
 
 #zero {
     grid-column: span 2;
+    padding: 25px;
 }
 
 .operator {
@@ -107,4 +108,16 @@ button {
 
 .percent:active {
     background-color: rgb(123, 189, 255);
+}
+.Log {
+    background-color: turquoise;
+}
+.Ln {
+    background-color: turquoise;
+}
+.Sin {
+    background-color: turquoise;
+}
+.Cos {
+    background-color: turquoise;
 }
